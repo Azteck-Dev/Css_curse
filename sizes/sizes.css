@@ -1,0 +1,26 @@
+*{
+    padding: 0%;
+    margin: 0;    
+}
+
+/* Unidades de medidas relativas
+    -em defecto = 16px si no se ha establecido una medida anteriormente
+    mas sin embargo esta medida se vera afectada si al contenedor principal se le asigna una medida anteriormente.
+    -view-port heigth = vh altura del dispositivo
+    -view-port width = vw ancho del dispositivo
+*/
+.contact-form{
+    font-size: 18px; /*1em toma el valor de 18px*/
+    background: #444;
+    width: 50vw;
+    height: 50vh;
+}
+/* Unidades de medida que se pueden usar figas
+    -pixeles px
+    -centimetros cm
+    -milimetro mm
+    -puntos pt
+*/
+.contact-form_h2{
+    font-size: 2em;   /* Por lo que 2em son igual a 36px*/
+}

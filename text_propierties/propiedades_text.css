@@ -1,0 +1,17 @@
+/* Importacion de fuentes puede ser directamente en el css u atravez del link en el archivo html */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    color: #D00000;
+    font-size: 2em; 
+    font-family: 'Roboto', sans-serif;;
+    line-height: 1.9; /* Define la Altura de la linea de texto */
+    font-weight: bold; /* Cambia el grosor del texto */
+    font-stretch: normal; /* No suele ser usada  */
+    font-variant: small-caps; /* No suele ser usada */
+}
