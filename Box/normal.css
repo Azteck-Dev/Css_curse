@@ -20,10 +20,38 @@ En los elementos en linea ciertas propiedades no se aplican por ejemplo
  */
 h2{
     /* display: inline; La caja es determinada por el contenido */
-    background-color:#d00;
+    background-color:#d23;
     display: inline-block;
     /* 
-    Padding: top  rigth bottom left
+    El pading es la distancia que hay entre a caja y el contenido
+        Padding: top  rigth bottom left
     */
-    padding: 20px 60px ;
+    padding: 80px;
+    box-sizing: border-box;
+    text-align: center;
+    /* 
+    Margin estable esl espaceado entre las cajas
+        margin: top rigth bottom left
+    */
+    margin: 10px;
+    border-radius: 10px;
+    /* border: tamanio estilo color */
+    border: 5px solid #333;
+    /* box-shadow: rigth down blur border color; */
+    box-shadow: 2px 8px 10px 0 #F12345;
+    text-shadow: 3px 4px 4px #fff; /* aqui no lleba borde*/
+    /* 
+    Rotate
+        positivo rota a la derecha
+        negativo gita a la izquierda
+     */
+    transform: rotate(3deg);
 }
+
+/* Box model
+Propiedades:
+    -content: line-heigt
+    -padding: padding
+    -border:  border
+    -margin:  margin
+*/
