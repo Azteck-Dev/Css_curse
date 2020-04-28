@@ -7,12 +7,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,400&display=swap');
 
 *{
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+    font-size: 26px;
 }
 
-.container{
-    color: #D00000;
-    font-size: 1em; 
-    font-family: 'Roboto', sans-serif;;
+/* 
+En los elementos en linea ciertas propiedades no se aplican por ejemplo
+    -heigth
+    -width
+ */
+h2{
+    /* display: inline; La caja es determinada por el contenido */
+    background-color:#d00;
+    display: inline-block;
+    /* 
+    Padding: top  rigth bottom left
+    */
+    padding: 20px 60px ;
 }
