@@ -1,0 +1,44 @@
+/* 
+Float: sirve para posicionar los elemento, suele usarse actualemnte en conjuncion con textos para mejorar la presentacion de la informacion.
+*/
+
+*{
+    margin: 0;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.container div{
+    width: 50%;
+    float: right;
+}
+
+.primario{
+    background: teal;
+}
+
+.secundario{
+    background: tomato;
+}
+
+.text{
+    position: relative;
+    top: 350px;
+    margin: auto;
+    border: 4px solid #333;
+    background: teal;
+    width: 50%;
+    padding: 20px;
+}
+
+.text{
+    width: 50%;
+}
+
+.text img{
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+}

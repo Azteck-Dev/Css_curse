@@ -1,0 +1,20 @@
+/* 
+OverFlow es un propiedad reducida que nos permite establecer que como se trataran los elemento que sobre pasen el tamaño de un elemento.
+    -overflow-x lateral
+    -overflow-y inferior y superior
+ */
+
+ *{
+     font-size: 20px;
+     font-weight: bold;
+     font-family: monospace;
+ }
+
+ div{
+     margin: 50px;
+     width: 320px;
+     height: 250px;
+     border: 4px solid red;
+     background: salmon;
+     overflow: auto;
+ }
