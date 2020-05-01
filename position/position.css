@@ -1,0 +1,74 @@
+/*     
+Position establece la posicion del obejto, al declarar un apocicion los objetos adquieren diferentes propiedades.Lo que afectara el flujo del HTML es decir el orden de los elementos
+    Propiedades:
+        -static:  no esta posicionado
+        -relative: es un elemento posicionado conservando el espacio establecido y siguiendo el orden del flujo del documento.
+            -top
+            -left
+            -rigth
+            -bottom
+            -z-index Me permite indicar el nivel de superpocicion en el DOM, pero mantiene un conglicto con los padres e hijos y solo afecta al objeto padre y no a sus hijos la unica forma es modificando el z-index de hijo y dejar al padre por default sin modificar el z-index.
+        -absolute: es similar a relative, pero el espacio reservado para el elemento y no 
+                existe y las propiedades top y left ahora son el contenedor u e viewport(Todo lo que se puede ver del documento), si no se le define un apocicion este se alineara al contenedor
+        -fixed: es similar a absoluto con la diferencia que el elemento 
+                queda fijo en el viewport
+        -sticky: es una especie de mezcla entre relative y absolute, por lo que
+                puede ser movida como el absoluite pero mantenido el espacio en el DOM como relative
+
+*/
+
+
+*{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box-fix{
+    background: #d00;
+    position: sticky;
+    top: 0;
+}
+
+/* div{
+    display: block;
+    position: absolute;
+}
+
+div div{
+    height: 100px;
+    width: 100px;
+    background: teal;
+}
+
+.contenedor{
+    position: relative;
+    background: tomato;
+    border: 4px solid #d00;
+    margin: 150px auto;
+    height: 400px;
+    width: 400px;
+}
+
+.caja1{
+    top: 0;
+    
+}
+.caja2{
+    right: 0;
+}
+.caja3{
+    right: 0;
+    bottom: 0;
+}
+.caja4{
+    bottom: 0;
+    left: 0;
+}
+.caja5{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+} */
