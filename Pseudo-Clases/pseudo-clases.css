@@ -1,0 +1,65 @@
+/* 
+Pseudo-Clases son activadas en respuesta a algo es decir son escuchas 
+    ->:hover --Al pasar el puntero sobre el elemento.
+    ->:link  --Links sin visitar.
+    ->:visited --Links visitados.
+    ->:active --mientras se ejecute un click sostenido.
+    ->:focus --
+    ->:lang
+*/
+
+*{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box1{
+    padding: 20px;
+    width: 200px;
+    height: 30px;
+    background: tomato;
+    transition: 1s;
+}
+
+.box1:hover{
+    background: darkslategray;
+    color: floralwhite;
+}
+
+a{
+    margin: 20px;
+    display: block;
+}
+
+a:link{
+    color: tomato;
+}
+
+a:visited{
+    color: turquoise;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background: violet;
+    transition: .6s;
+}
+
+.caja:active{
+    background: tomato;
+}
+input{
+    margin: 30px;
+    background: black;
+    transition: .6s;
+}
+input:focus{
+    background: gray;
+}
+
+:lang(en){
+    background: tomato;
+    color: white;
+}
