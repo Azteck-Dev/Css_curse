@@ -2,8 +2,8 @@
 
 Conceptos basicos de CSS 3
 
--Propiedades
--Pseudo Elementos
--Pseudo Clases
--Flex Box
+-Propiedades<br>
+-Pseudo Elementos<br>
+-Pseudo Clases<br>
+-Flex Box<br>
 -Grid
