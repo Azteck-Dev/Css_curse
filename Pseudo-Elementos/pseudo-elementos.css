@@ -1,0 +1,65 @@
+/* 
+Es un elemento que en si no afecta al DOM
+    -DOM
+        ::first-line -> Block
+        ::first-letter -> Block
+        ::placeholder -> Inline
+        ::selection   -> Inline
+    -Out DOM
+        ::after  -> Hijos y requiere la etiqueta content
+        ::before -> Hijos y requiere la etiqueta content
+     
+*/
+*{
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.texto{
+    padding: 20px;
+}
+
+.texto::first-line{
+    color: tomato;
+}
+
+.texto::first-letter{
+    font-size: 4em;
+}
+
+form{
+    margin: 20px auto;
+    display: block;
+    background-color: tomato;
+    padding: 60px;
+    width: 50%;
+}
+
+input{
+    padding: 6px;
+    width: 100%;
+}
+
+input::placeholder{
+    color: tomato;
+    font-size: 20px;
+    background-color: teal;
+}
+
+.texto::selection{
+    color: violet;
+    background: #000;
+}
+
+i::before{
+    content: "Me la pelas ";
+    color: teal;
+    background: #fff;
+}
+
+i::after{
+    content: " la espalda.";
+    color: teal;
+    background: #fff;
+}
